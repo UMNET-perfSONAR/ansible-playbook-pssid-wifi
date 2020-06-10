@@ -1,0 +1,7 @@
+# perfsonar.yml main perfSONAR config
+
+- name: wifi
+  hosts:
+    - wifi
+  roles:
+    - ansible-role-wifi
